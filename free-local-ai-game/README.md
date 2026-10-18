@@ -2,7 +2,7 @@
 
 Hands-on tutorial from **[skill.md](https://www.youtube.com/channel/UCMQcMb_sp9gmMCYzhHRaS8g)**.
 
-▶️ **Watch:** _link added when the video goes live_
+▶️ **Watch:** https://www.youtube.com/watch?v=Qco2QHSNxMY ("Ollama Tutorial: A Free Local AI Built This Game in 3 Prompts" — goes live Oct 22, 2026)
 
 Everything here is exactly what the AI produced on our Mac — we did not hand-edit the game files.
 

@@ -4,7 +4,7 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 
 | Video | Folder |
 |---|---|
-| I asked a free local AI to build a game (Ollama + Qwen2.5-Coder 3B) | [`free-local-ai-game/`](free-local-ai-game/) |
+| [Ollama Tutorial: A Free Local AI Built This Game in 3 Prompts](https://www.youtube.com/watch?v=Qco2QHSNxMY) | [`free-local-ai-game/`](free-local-ai-game/) |
 
 Everything in a folder is what we actually ran and what the AI actually produced. Check each tool's license before commercial use.
 
