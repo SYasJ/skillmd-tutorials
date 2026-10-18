@@ -1,0 +1,8 @@
+[project]
+name = "mcp-server-ollama"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=2.3.0",
+    "ollama>=0.6.3",
+]
