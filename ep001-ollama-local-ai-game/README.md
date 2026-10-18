@@ -2,7 +2,7 @@
 
 Hands-on tutorial from **[skill.md](https://www.youtube.com/channel/UCMQcMb_sp9gmMCYzhHRaS8g)**.
 
-▶️ **Watch:** _link added when the video goes live (Oct 22, 2026)_
+▶️ **Watch:** https://www.youtube.com/watch?v=EHjuBxIO8zA (goes live Oct 22, 2026)
 
 Everything here is exactly what the AI produced on our Mac — we did not hand-edit the game files.
 
@@ -20,4 +20,4 @@ Everything here is exactly what the AI produced on our Mac — we did not hand-e
 - No account, no API key, works offline after the download. Cost: $0.
 
 ## Credits
-The hands-on, show-every-step style of this tutorial was inspired by **[FreeAIVault](https://www.youtube.com/@FreeAIVaultTV)** — go check out their channel.
+The hands-on, show-every-step segments of this tutorial are inspired by **[FreeAIVault](https://www.youtube.com/@FreeAIVaultTV)** — go check out their channel.

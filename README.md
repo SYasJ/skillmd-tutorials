@@ -6,7 +6,7 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 
 | Ep | Date | Video | Folder |
 |---|---|---|---|
-| 001 | 2026-10-22 | Ollama Tutorial: A Free Local AI Built This Game in 3 Prompts — _link added when it goes live_ | [`ep001-ollama-local-ai-game/`](ep001-ollama-local-ai-game/) |
+| 001 | 2026-10-22 | [Ollama Tutorial: A Free Local AI Built This Game in 3 Prompts](https://www.youtube.com/watch?v=EHjuBxIO8zA) | [`ep001-ollama-local-ai-game/`](ep001-ollama-local-ai-game/) |
 
 Each folder has its own README: what the video shows, every command and prompt in order, the files the AI produced (unedited), and the licenses of the tools and models used.
 
