@@ -1,8 +1,8 @@
-# I asked a free local AI to build a game — files from the video
+# ep001 · Ollama tutorial: a free local AI built this game in 3 prompts
 
 Hands-on tutorial from **[skill.md](https://www.youtube.com/channel/UCMQcMb_sp9gmMCYzhHRaS8g)**.
 
-▶️ **Watch:** https://www.youtube.com/watch?v=Qco2QHSNxMY ("Ollama Tutorial: A Free Local AI Built This Game in 3 Prompts" — goes live Oct 22, 2026)
+▶️ **Watch:** _link added when the video goes live (Oct 22, 2026)_
 
 Everything here is exactly what the AI produced on our Mac — we did not hand-edit the game files.
 
