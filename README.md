@@ -8,7 +8,8 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 |---|---|---|---|
 | 001 | 2026-10-22 | [Ollama Tutorial: A Free Local AI Built This Game in 3 Prompts](https://www.youtube.com/watch?v=EHjuBxIO8zA) | [`ep001-ollama-local-ai-game/`](ep001-ollama-local-ai-game/) |
 | 002 | 2026-10-23 | [MCP Server Tutorial (Python + Ollama): My Local AI Stopped Guessing](https://www.youtube.com/watch?v=KmGqDziaxSc) | [`ep002-mcp-server-ollama/`](ep002-mcp-server-ollama/) |
-| 003 | 2026-10-25 | [How to Make Money With AI in 2026: 7 Steps (Real Run, Real Mistakes)](https://www.youtube.com/watch?v=7OrHAsuJGT0) | [`ep003-make-money-with-ai/`](ep003-make-money-with-ai/) |
+| 003 | 2026-10-27 | [How to Make Money With AI in 2026: 7 Steps (Real Run, Real Mistakes)](https://www.youtube.com/watch?v=7OrHAsuJGT0) | [`ep003-make-money-with-ai/`](ep003-make-money-with-ai/) |
+| 004 | 2026-10-26 | [Claude Mythos 5 Went Rogue in a Safety Test. It Faked a Human](https://www.youtube.com/watch?v=QTzZYoXkMvI) | [`ep004-ai-agent-network-sandbox/`](ep004-ai-agent-network-sandbox/) |
 
 Each folder has its own README: what the video shows, every command and prompt in order, the files the AI produced (unedited), and the licenses of the tools and models used.
 
