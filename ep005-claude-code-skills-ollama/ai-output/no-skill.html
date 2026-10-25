@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TideTimer | Ride the Perfect Wave</title>
+    <style>
+        :root {
+            --primary-blue: #0077be;
+            --deep-ocean: #003366;
+            --sand: #f4e4bc;
+            --white: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--deep-ocean);
+            background-color: var(--white);
+        }
+        header {
+            background: linear-gradient(rgba(0, 51, 102, 0.6), rgba(0, 51, 102, 0.6)),
+                        url('https://images.unsplash.com/photo-1502680390720-a91656707a51?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: var(--white);
+            padding: 0 20px;
+        }
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            max-width: 800px;
+        }
+        .cta-button {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .cta-button:hover {
+            background-color: #005fa3;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 80px 20px;
+            background-color: var(--sand);
+            flex-wrap: wrap;
+        }
+        .feature-card {
+            text-align: center;
+            max-width: 300px;
+            margin: 20px;
+            padding: 20px;
+        }
+        .feature-card h3 {
+            font-size: 1.8rem;
+            color: var(--deep-ocean);
+        }
+        footer {
+            background-color: var(--deep-ocean);
+            color: var(--white);
+            text-align: center;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TideTimer</h1>
+        <p>Stop guessing. Start surfing. Get real-time tide predictions tailored to your favorite breaks.</p>
+        <a href="#" class="cta-button">Get Started for Free</a>
+    </header>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>🌊 Precise Timing</h3>
+            <p>Hyper-local tide data so you know exactly when the window opens.</p>
+        </div>
+        <div class="feature-card">
+            <h3>📍 Favorite Breaks</h3>
+            <p>Save your secret spots and get notified when conditions are prime.</p>
+        </div>
+        <div class="feature-card">
+            <h3>📱 Mobile Alerts</h3>
+            <p>Push notifications that tell you when to wax your board and go.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 TideTimer. Ride the perfect wave.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+if .type=="assistant" then (.message.content[] | if .type=="tool_use" then "▶ " + .name + "  " + ((.input.skill // .input.command // .input.file_path // .input.path // "")|tostring|.[0:70]) elif .type=="text" then "  " + (.text|.[0:200]) else empty end) elif .type=="result" then "✔ done in \((.duration_ms/1000*10|floor)/10) s" else empty end
