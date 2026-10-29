@@ -13,6 +13,7 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 | 005 | 2026-10-29 | [Claude Code Skills Tutorial: Your First SKILL.md, Free With Ollama](https://www.youtube.com/watch?v=aiJI2tvxEH0) | [`ep005-claude-code-skills-ollama/`](ep005-claude-code-skills-ollama/) |
 | 006 | 2026-10-31 | [Claude Code Hooks Tutorial: The AI Found a Way Around My Rule](https://www.youtube.com/watch?v=D-9F9ycWnew) | [`ep006-claude-code-hooks/`](ep006-claude-code-hooks/) |
 | 007 | 2026-10-29 | [Downloading the Claude Desktop App? Fake Ones on GitHub Hide Malware](https://www.youtube.com/watch?v=oTxNPO5FEX8) | [`ep007-check-ai-app-downloads/`](ep007-check-ai-app-downloads/) |
+| 008 | 2026-10-30 | [Ollama RAG Tutorial: Chat With Your PDFs Locally (No LangChain)](https://www.youtube.com/watch?v=6uEi19mQSBg) | [`ep008-local-rag-ollama/`](ep008-local-rag-ollama/) |
 
 Each folder has its own README: what the video shows, every command and prompt in order, the files the AI produced (unedited), and the licenses of the tools and models used.
 
