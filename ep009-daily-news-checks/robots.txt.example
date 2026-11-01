@@ -1,0 +1,5 @@
+# Opt out of AI training (shared signal, Oct 2026 IETF draft)
+User-Agent: __usage_ai-training
+Disallow: /
+# Optional: keep one folder open for training
+# Allow: /press-kit/
