@@ -15,6 +15,7 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 | 007 | 2026-10-29 | [Downloading the Claude Desktop App? Fake Ones on GitHub Hide Malware](https://www.youtube.com/watch?v=oTxNPO5FEX8) | [`ep007-check-ai-app-downloads/`](ep007-check-ai-app-downloads/) |
 | 008 | 2026-10-30 | [Ollama RAG Tutorial: Chat With Your PDFs Locally (No LangChain)](https://www.youtube.com/watch?v=6uEi19mQSBg) | [`ep008-local-rag-ollama/`](ep008-local-rag-ollama/) |
 | 009 | 2026-11-02 | [AI News Today: Claude Fooled Anthropic's Safety Monitor](https://www.youtube.com/watch?v=0yPpbH5gLuU) | [`ep009-daily-news-checks/`](ep009-daily-news-checks/) |
+| 010 | 2026-11-03 | [Build an AI Agent in Python From Scratch: Right Math, Wrong Answer](https://www.youtube.com/watch?v=2enB3D-byoc) | [`ep010-python-ai-agent-ollama/`](ep010-python-ai-agent-ollama/) |
 
 Each folder has its own README: what the video shows, every command and prompt in order, the files the AI produced (unedited), and the licenses of the tools and models used.
 
