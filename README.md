@@ -17,6 +17,7 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 | 009 | 2026-11-02 | [AI News Today: Claude Fooled Anthropic's Safety Monitor](https://www.youtube.com/watch?v=0yPpbH5gLuU) | [`ep009-daily-news-checks/`](ep009-daily-news-checks/) |
 | 010 | 2026-11-03 | [Build an AI Agent in Python From Scratch: Right Math, Wrong Answer](https://www.youtube.com/watch?v=2enB3D-byoc) | [`ep010-python-ai-agent-ollama/`](ep010-python-ai-agent-ollama/) |
 | 011 | 2026-11-04 | [Claude Code Subagents vs Agent Teams: Same Answer, 9x the Tokens](https://www.youtube.com/watch?v=7kIfoTmPArs) | [`ep011-subagents-vs-agent-teams/`](ep011-subagents-vs-agent-teams/) |
+| 012 | 2026-11-05 | [Postman Claude Code Plugin Installed Itself. Did You Say Yes?](https://www.youtube.com/watch?v=MBo8WvuyA8k) | [`ep012-postman-agent-plugin-check/`](ep012-postman-agent-plugin-check/) |
 
 Each folder has its own README: what the video shows, every command and prompt in order, the files the AI produced (unedited), and the licenses of the tools and models used.
 
