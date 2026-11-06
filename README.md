@@ -19,6 +19,7 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 | 011 | 2026-11-04 | [Claude Code Subagents vs Agent Teams: Same Answer, 9x the Tokens](https://www.youtube.com/watch?v=7kIfoTmPArs) | [`ep011-subagents-vs-agent-teams/`](ep011-subagents-vs-agent-teams/) |
 | 012 | 2026-11-05 | [Postman Claude Code Plugin Installed Itself. Did You Say Yes?](https://www.youtube.com/watch?v=MBo8WvuyA8k) | [`ep012-postman-agent-plugin-check/`](ep012-postman-agent-plugin-check/) |
 | 013 | 2026-11-06 | [OpenAI Linux Kernel Exploits: AI Built 948 Root Hacks for $1.2M](https://www.youtube.com/watch?v=dMO3tmc9Ulw) | [`ep013-linux-kernel-patch-check/`](ep013-linux-kernel-patch-check/) |
+| 014 | 2026-11-07 | [NVIDIA Auto Ontology: Stops AI Agents Guessing Your Data (Mostly)](https://www.youtube.com/watch?v=aU4_Ch_FYlE) | [`ep014-auto-ontology-duplicate-columns/`](ep014-auto-ontology-duplicate-columns/) |
 
 Each folder has its own README: what the video shows, every command and prompt in order, the files the AI produced (unedited), and the licenses of the tools and models used.
 
