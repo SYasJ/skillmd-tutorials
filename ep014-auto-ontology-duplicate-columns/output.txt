@@ -1,0 +1,10 @@
+1) same column names, no error:
+columns : ['id', 'id', 'name', 'name']
+raw row : (1, 100, 'Ada', 'first order')
+as dict : {'id': 100, 'name': 'first order'}
+
+2) fix: give every column its own name:
+columns : ['customer_id', 'order_id', 'customer', 'order_name']
+raw row : (1, 100, 'Ada', 'first order')
+as dict : {'customer_id': 1, 'order_id': 100, 'customer': 'Ada', 'order_name': 'first order'}
+
