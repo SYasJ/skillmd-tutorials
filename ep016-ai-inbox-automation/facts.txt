@@ -1,0 +1,6 @@
+- Harbor Bakery is a made-up bakery for this demo.
+- Open Tuesday to Sunday, 7am to 3pm. Closed Mondays.
+- Pickup only. No delivery, except weekly orders for businesses (owner confirms).
+- Cinnamon rolls are baked every morning and often sell out by noon.
+- Custom cakes need 48 hours' notice; the owner confirms each one.
+- Prices for regular, catering and trade orders are quoted by the owner.

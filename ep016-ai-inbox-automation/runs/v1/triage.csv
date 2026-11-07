@@ -1,0 +1,7 @@
+email,category,urgency,summary,seconds
+01-birthday-cake.txt,order,2,"Dana M. wants a chocolate birthday cake for 12 people to be picked up on Saturday at 10 am, with 'Happy 7th Birthday, Leo' on top.",15.8
+02-wrong-order.txt,order,2,Customer received incorrect bread order and needs immediate assistance.,6.5
+03-office-catering.txt,order,2,"We can accommodate regular orders for pastries, but pricing is not guaranteed and will be confirmed by the owner.",7.0
+04-hours.txt,question,2,Customer asks if the bakery is open on Sunday and if they still have cinnamon rolls.,6.9
+06-winner.txt,spam,2,"Congratulations on being selected for a $5,000 marketing grant. Please click the link to claim your prize and enter your bank details within 24 hours.",8.4
+05-cafe-supply.txt,spam,1,Request for supply and pricing information from a cafe two streets away.,7.3

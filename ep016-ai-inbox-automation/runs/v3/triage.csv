@@ -1,0 +1,7 @@
+email,category,urgency,summary,seconds
+02-wrong-order.txt,complaint,3,Customer picked up wrong order (baguettes instead of sourdough loaves) with guests tonight,15.4
+01-birthday-cake.txt,catering,2,Dana M. asks about ordering a chocolate birthday cake for 12 people to pick up Saturday at 10am with a custom message.,37.1
+03-office-catering.txt,catering,2,Team of 20 requests weekly pastry delivery for Fridays starting next month,20.6
+04-hours.txt,question,1,Alex asks if Harbor Bakery is open on Sundays and if cinnamon rolls are still available.,17.9
+05-cafe-supply.txt,wholesale,1,Marco from Blue Door Cafe asks about weekly croissant and sourdough supply and trade prices,20.9
+06-winner.txt,spam,1,"Customer received a $5,000 marketing grant offer with a link to enter bank details",13.7

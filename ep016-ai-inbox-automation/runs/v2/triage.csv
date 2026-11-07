@@ -1,0 +1,7 @@
+email,category,urgency,summary,seconds
+01-birthday-cake.txt,order,3,"Dana M. wants to order a chocolate birthday cake for 12 people for pickup on Saturday at 10am with 'Happy 7th Birthday, Leo' written on it.",15.3
+02-wrong-order.txt,complaint,3,"Customer received wrong type of bread in order, needs assistance.",12.0
+04-hours.txt,complaint,3,Alex is asking if Harbor Bakery is open on Sundays and if they still have cinnamon rolls.,7.9
+03-office-catering.txt,order,2,Tom at Northside Dental wants to place a regular order for mixed pastries every Friday at 8:30am.,7.9
+05-cafe-supply.txt,order,2,"Marco, Blue Door Cafe wants to discuss weekly supply and trade prices for croissants and sourdough.",7.5
+06-winner.txt,spam,2,"Congratulations on being selected for a $5,000 marketing grant. Please enter your bank details within 24 hours to claim your prize.",6.5

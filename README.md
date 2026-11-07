@@ -21,6 +21,7 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 | 013 | 2026-11-06 | [OpenAI Linux Kernel Exploits: AI Built 948 Root Hacks for $1.2M](https://www.youtube.com/watch?v=dMO3tmc9Ulw) | [`ep013-linux-kernel-patch-check/`](ep013-linux-kernel-patch-check/) |
 | 014 | 2026-11-07 | [NVIDIA Auto Ontology: Stops AI Agents Guessing Your Data (Mostly)](https://www.youtube.com/watch?v=aU4_Ch_FYlE) | [`ep014-auto-ontology-duplicate-columns/`](ep014-auto-ontology-duplicate-columns/) |
 | 015 | 2026-11-07 | [AI News Today: DeepMind AI Agents Found 2 Holes in Old RSA Encryption](https://www.youtube.com/watch?v=HIPSQjlh7R0) | [`ep015-openssh-rsa-key-check/`](ep015-openssh-rsa-key-check/) |
+| 016 | 2026-11-08 | [AI Automation for Small Business: My AI Said Yes to a Scam](https://www.youtube.com/watch?v=vYwwHiwiYUs) | [`ep016-ai-inbox-automation/`](ep016-ai-inbox-automation/) |
 
 Each folder has its own README: what the video shows, every command and prompt in order, the files the AI produced (unedited), and the licenses of the tools and models used.
 
