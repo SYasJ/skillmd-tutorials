@@ -1,0 +1,6 @@
+{
+  "contentBoundaries": true,
+  "maxOutput": 50000,
+  "allowedDomains": ["your-app.com", "*.your-app.com"],
+  "actionPolicy": "./policy.json"
+}

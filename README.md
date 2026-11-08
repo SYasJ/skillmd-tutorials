@@ -23,6 +23,7 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 | 015 | 2026-11-07 | [AI News Today: DeepMind AI Agents Found 2 Holes in Old RSA Encryption](https://www.youtube.com/watch?v=HIPSQjlh7R0) | [`ep015-openssh-rsa-key-check/`](ep015-openssh-rsa-key-check/) |
 | 016 | 2026-11-08 | [AI Automation for Small Business: My AI Said Yes to a Scam](https://www.youtube.com/watch?v=vYwwHiwiYUs) | [`ep016-ai-inbox-automation/`](ep016-ai-inbox-automation/) |
 | 017 | 2026-11-08 | [Claude Code Security: "Don't Ask Again" Leaked 2,539 Secrets](https://www.youtube.com/watch?v=Ik5dX6UYb-w) | [`ep017-claude-code-secrets-check/`](ep017-claude-code-secrets-check/) |
+| 018 | 2026-11-09 | [Vercel Agent Browser: 47K Stars, Every Safety Switch Off by Default](https://www.youtube.com/watch?v=vXSW22HhvbY) | [`ep018-agent-browser-safe-start/`](ep018-agent-browser-safe-start/) |
 
 Each folder has its own README: what the video shows, every command and prompt in order, the files the AI produced (unedited), and the licenses of the tools and models used.
 
