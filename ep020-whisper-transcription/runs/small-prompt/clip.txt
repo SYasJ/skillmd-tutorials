@@ -1,0 +1,30 @@
+So what is a hook?
+It's a script that Claude Code runs at a fixed moment,
+not a line in a prompt that the model might ignore,
+a real command, every time.
+The docs list events like session start
+and user prompt submit.
+The two we'll use are pre-tool use,
+which fires before a tool call and can block it,
+and post-tool use, which fires after a tool call succeeds.
+Here's how it works.
+The model asks to run a tool.
+Before it runs, Claude Code sends the details
+to your script as JSON, the tool name,
+and the input, like the exact command.
+Your script decides.
+Exit zero, and the call goes ahead.
+Exit two, and Claude Code blocks it.
+Whatever you print to standard error
+goes back to Claude as the reason.
+The docs are clear.
+If a hook is meant to enforce a policy, use exit two.
+Step one, point Claude Code at Ollama,
+so this costs nothing.
+Ollama's docs give three lines, the auth token,
+an empty API key, and the base URL of your local Ollama.
+Then pick a model.
+I used Gemma 4, 31B, which is in Ollama's free plan.
+It's a Claude model, so your prompt goes to Ollama's servers.
+And one more line, an empty config folder,
+so my own plugins and settings stay out of the test.

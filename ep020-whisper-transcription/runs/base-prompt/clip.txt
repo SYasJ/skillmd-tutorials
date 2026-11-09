@@ -1,0 +1,7 @@
+So what is a hook? It's a script that Claude Code runs at a fixed moment, not a line in a prompt that the model might ignore.
+It sends the details to your script as Jason, the tool name and the input, like the exact command.
+Your script decides. Exit 0 and the call goes ahead. Exit 2 and Claude Code blocks it. Whatever you print to standard error goes back to Claude as the reason.
+The docs are clear. If a hook is meant to enforce a policy, use Exit 2. Step 1, point Claude Code at Ollama, so this costs nothing.
+Ollama's docs give three lines, the auth token, an empty API key, and the base URL of your local Ollama.
+Then pick a model. I used Gemma 4, 31b, which is in Ollama's free plan. It's a cloud model, so your prompt goes to Ollama's servers.
+And one more line, an empty config folder, so my own plugins and settings stay out of the test.

@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:02,000
+So what is a hook?
+
+2
+00:00:02,000 --> 00:00:05,400
+It's a script that Claude Code runs at a fixed moment,
+
+3
+00:00:05,400 --> 00:00:08,280
+not a line in a prompt that the model might ignore,
+
+4
+00:00:08,280 --> 00:00:10,360
+a real command, every time.
+
+5
+00:00:11,500 --> 00:00:13,880
+The docs list events like session start
+
+6
+00:00:13,880 --> 00:00:15,640
+and user prompt submit.
+
+7
+00:00:15,640 --> 00:00:18,160
+The two we'll use are pre-tool use,
+
+8
+00:00:18,160 --> 00:00:21,200
+which fires before a tool call and can block it,
+
+9
+00:00:21,200 --> 00:00:25,520
+and post-tool use, which fires after a tool call succeeds.
+
+10
+00:00:25,520 --> 00:00:26,680
+Here's how it works.
+
+11
+00:00:26,680 --> 00:00:28,400
+The model asks to run a tool.
+
+12
+00:00:28,400 --> 00:00:30,840
+Before it runs, Claude Code sends the details
+
+13
+00:00:30,840 --> 00:00:33,280
+to your script as JSON, the tool name,
+
+14
+00:00:33,280 --> 00:00:35,500
+and the input, like the exact command.
+
+15
+00:00:37,000 --> 00:00:38,560
+Your script decides.
+
+16
+00:00:38,560 --> 00:00:40,640
+Exit zero, and the call goes ahead.
+
+17
+00:00:40,640 --> 00:00:43,040
+Exit two, and Claude Code blocks it.
+
+18
+00:00:43,040 --> 00:00:44,680
+Whatever you print to standard error
+
+19
+00:00:44,680 --> 00:00:46,560
+goes back to Claude as the reason.
+
+20
+00:00:48,120 --> 00:00:49,200
+The docs are clear.
+
+21
+00:00:49,200 --> 00:00:52,800
+If a hook is meant to enforce a policy, use exit two.
+
+22
+00:00:52,800 --> 00:00:55,420
+Step one, point Claude Code at Ollama,
+
+23
+00:00:55,420 --> 00:00:57,320
+so this costs nothing.
+
+24
+00:00:57,360 --> 00:01:00,200
+Ollama's docs give three lines, the auth token,
+
+25
+00:01:00,200 --> 00:01:04,360
+an empty API key, and the base URL of your local Ollama.
+
+26
+00:01:06,560 --> 00:01:07,640
+Then pick a model.
+
+27
+00:01:07,640 --> 00:01:12,000
+I used Gemma 4, 31B, which is in Ollama's free plan.
+
+28
+00:01:12,000 --> 00:01:15,440
+It's a Claude model, so your prompt goes to Ollama's servers.
+
+29
+00:01:16,920 --> 00:01:19,360
+And one more line, an empty config folder,
+
+30
+00:01:19,360 --> 00:01:22,400
+so my own plugins and settings stay out of the test.
+

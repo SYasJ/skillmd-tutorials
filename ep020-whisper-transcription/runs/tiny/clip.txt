@@ -1,0 +1,22 @@
+So what is a hook?
+It's a script that Cloud Code runs at a fixed moment, not a line in a prompt that the model might ignore, a real command every time.
+The docs list events like session start and user prompt submit.
+The two will use our pre-tool use, which fires before a tool call and can block it.
+And post-tool use, which fires after a tool call succeeds.
+Here's how it works.
+The model asks to run a tool.
+Before it runs, Cloud Code sends the details to your script as JSON.
+The tool name and the input, like the exact command.
+Your script decides, exit zero, and the call goes ahead.
+Exit two and Cloud Code blocks it.
+Whatever you print to standard error goes back to Cloud as the reason.
+The docs are clear.
+If a hook is meant to enforce a policy, use exit two.
+One point-cloth code at Olamma, so this costs nothing.
+Olamma's docs give three lines.
+The auth token and empty API key, and the base URL of your local Olamma.
+Then pick a model.
+I used Gemma4, 31B, which is in Olamma's free plan.
+It's a Cloud model, so your prompt goes to Olamma's servers.
+And one more line, an empty config folder, so my own plugins and settings stay out of the test.
+Stay out of the test.

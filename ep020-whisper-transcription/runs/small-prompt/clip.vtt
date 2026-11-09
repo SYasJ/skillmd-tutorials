@@ -1,0 +1,92 @@
+WEBVTT
+
+00:00.000 --> 00:02.000
+So what is a hook?
+
+00:02.000 --> 00:05.400
+It's a script that Claude Code runs at a fixed moment,
+
+00:05.400 --> 00:08.280
+not a line in a prompt that the model might ignore,
+
+00:08.280 --> 00:10.360
+a real command, every time.
+
+00:11.500 --> 00:13.880
+The docs list events like session start
+
+00:13.880 --> 00:15.640
+and user prompt submit.
+
+00:15.640 --> 00:18.160
+The two we'll use are pre-tool use,
+
+00:18.160 --> 00:21.200
+which fires before a tool call and can block it,
+
+00:21.200 --> 00:25.520
+and post-tool use, which fires after a tool call succeeds.
+
+00:25.520 --> 00:26.680
+Here's how it works.
+
+00:26.680 --> 00:28.400
+The model asks to run a tool.
+
+00:28.400 --> 00:30.840
+Before it runs, Claude Code sends the details
+
+00:30.840 --> 00:33.280
+to your script as JSON, the tool name,
+
+00:33.280 --> 00:35.500
+and the input, like the exact command.
+
+00:37.000 --> 00:38.560
+Your script decides.
+
+00:38.560 --> 00:40.640
+Exit zero, and the call goes ahead.
+
+00:40.640 --> 00:43.040
+Exit two, and Claude Code blocks it.
+
+00:43.040 --> 00:44.680
+Whatever you print to standard error
+
+00:44.680 --> 00:46.560
+goes back to Claude as the reason.
+
+00:48.120 --> 00:49.200
+The docs are clear.
+
+00:49.200 --> 00:52.800
+If a hook is meant to enforce a policy, use exit two.
+
+00:52.800 --> 00:55.420
+Step one, point Claude Code at Ollama,
+
+00:55.420 --> 00:57.320
+so this costs nothing.
+
+00:57.360 --> 01:00.200
+Ollama's docs give three lines, the auth token,
+
+01:00.200 --> 01:04.360
+an empty API key, and the base URL of your local Ollama.
+
+01:06.560 --> 01:07.640
+Then pick a model.
+
+01:07.640 --> 01:12.000
+I used Gemma 4, 31B, which is in Ollama's free plan.
+
+01:12.000 --> 01:15.440
+It's a Claude model, so your prompt goes to Ollama's servers.
+
+01:16.920 --> 01:19.360
+And one more line, an empty config folder,
+
+01:19.360 --> 01:22.400
+so my own plugins and settings stay out of the test.
+
