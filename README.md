@@ -26,6 +26,7 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 | 018 | 2026-11-09 | [Vercel Agent Browser: 47K Stars, Every Safety Switch Off by Default](https://www.youtube.com/watch?v=vXSW22HhvbY) | [`ep018-agent-browser-safe-start/`](ep018-agent-browser-safe-start/) |
 | 019 | 2026-11-09 | [Nvidia CEO Jensen Huang Under Investigation by His Own Board (story 3: DMARC check)](https://www.youtube.com/watch?v=CbBZbkyq_r8) | [`ep019-dmarc-check/`](ep019-dmarc-check/) |
 | 020 | 2026-11-10 | [Whisper AI Transcription: Free & Offline, But It Wrote "Cloud Code"](https://www.youtube.com/watch?v=ocl7QhMDSxg) | [`ep020-whisper-transcription/`](ep020-whisper-transcription/) |
+| 021 | 2026-11-10 | [Claude Fable 5.2: 1,000 AI Agents Formalized Fermat in 30 Hours (story 1: API call)](https://www.youtube.com/watch?v=-5oWKU8YPtE) | [`ep021-claude-fable-5-2-api/`](ep021-claude-fable-5-2-api/) |
 
 Each folder has its own README: what the video shows, every command and prompt in order, the files the AI produced (unedited), and the licenses of the tools and models used.
 
