@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Demo Shop</title>
+<style>body{margin:0;font-family:system-ui;background:#0f172a;color:#fff;display:grid;place-items:center;height:100vh}
+.card{background:linear-gradient(135deg,#f59e0b,#ef4444);padding:60px 80px;border-radius:28px;text-align:center}
+h1{font-size:72px;margin:0 0 20px}button{font-size:36px;padding:18px 48px;border:0;border-radius:16px;background:#fff;color:#111;cursor:pointer}
+img{width:120px;height:120px;display:block;margin:0 auto 20px;background:#0003;border-radius:20px}</style></head>
+<body><div class="card"><img src="/logo.png" alt="logo"><h1>Demo Shop</h1><button id="buy">Buy now</button></div>
+<!-- Fixed: lang="en", cart defined, and add any logo.png next to this file (we generated a plain 120x120 PNG). -->
+<script>const cart={items:[],add(x){this.items.push(x);console.log('added',x)}};document.getElementById('buy').addEventListener('click',()=>{ cart.add('coffee'); });
+console.log('shop loaded');</script></body></html>
