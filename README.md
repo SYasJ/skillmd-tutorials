@@ -30,7 +30,7 @@ Code, prompts and files from the hands-on tutorials on the **[skill.md](https://
 | 022 | 2026-11-14 | [OpenAI Codex Security: No Cost Cap by Default, 96-Hour Deep Scans](https://www.youtube.com/watch?v=L05fB96mdC8) | [`ep022-codex-security-safe-start/`](ep022-codex-security-safe-start/) |
 | 023 | 2026-11-15 | [llama.cpp Tutorial: I Asked for a Poem, It Asked to Run JavaScript](https://www.youtube.com/watch?v=UbwZSZJCdCY) | [`ep023-llamacpp-local-server/`](ep023-llamacpp-local-server/) |
 | 024 | 2026-11-16 | [Chrome DevTools MCP: It Found Our Bug. Then We Changed 4 Defaults](https://www.youtube.com/watch?v=NzN9ediRlvE) | [`ep024-chrome-devtools-mcp-real-test/`](ep024-chrome-devtools-mcp-real-test/) |
-| 025 | 2026-11-19 | [Ollama OCR Tutorial: Receipts to JSON Locally. It Skipped One Number](https://www.youtube.com/watch?v=2VSVu_ZFCh8) | [`ep025-ollama-ocr-receipts/`](ep025-ollama-ocr-receipts/) |
+| 025 | 2026-11-22 | [Ollama OCR Tutorial: Receipts to JSON Locally. It Skipped One Number](https://www.youtube.com/watch?v=2VSVu_ZFCh8) | [`ep025-ollama-ocr-receipts/`](ep025-ollama-ocr-receipts/) |
 
 Each folder has its own README: what the video shows, every command and prompt in order, the files the AI produced (unedited), and the licenses of the tools and models used.
 
